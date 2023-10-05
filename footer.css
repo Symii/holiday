@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@media screen and (max-width: 992px) {
+    .holiday-footer {
+        flex-direction: column;
+    }
+    .footer-main-section, .footer-nav-section {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-info {
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .footer-info div:first-child {
+        margin-right: 0 !important;
+    }
+}
+
+.holiday-footer h3 {
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.holiday-footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.holiday-footer p {
+    font-weight: 400;
+    letter-spacing: 1.6px;
+}
+
+.holiday-footer {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.footer-stars svg {
+    margin-right: 8px;
+}
+
+.footer-social-section {
+    flex-basis: 30%;
+}
+
+.footer-main-section {
+    flex-basis: 40%;
+}
+
+.footer-nav-section {
+    flex-basis: 20%;
+    text-align: left;
+}
+
+.footer-social-section a {
+    color: gray;
+    margin-right: 8px;
+    transition: color 0.15s ease-in-out;
+}
+
+.footer-social-section, .footer-main-section, .footer-nav-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info label {
+    font-weight: 400;
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+    
+}
+
+.footer-info {
+    display: flex;
+    text-align: left;
+}
+
+.footer-info div:first-child {
+    margin-right: 40px;
+}
+
+.footer-info a, .footer-nav-section a {
+    color: rgb(139, 139, 139);
+    transition: color 0.15s ease-in-out;
+}
+.footer-info span {
+    margin-right: 4px;
+}
+.footer-info a:hover, .footer-nav-section a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-info a:focus, .footer-nav-section a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav-section ul {
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+.footer-nav-section ul li {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+/*
+body {
+  background: #111d27;
+  color: #111;
+  min-width: 320px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  padding: 50px 20px;
+}*/
+
+
+
+.pricing-section h2 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.pricing-section h5 {
+	font-size: 28px;
+	margin-top: 50px;
+}
+
+.pricing-section ul {
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.pricing-section ul li {
+	font-size: 1.8rem;
+	margin-bottom: 5px;
+}
+
+.pricing-section ul li::before {
+	color:#AA771C;
+	content: "\2022";
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+
+
+.p-intro {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 175%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+.p-intro-max {
+	width: 100%;
+}
+
+.pricing-section h2, .pricing-section h3, .pricing-section h4 {
+	text-align: center;
+}
+
+.pricing-section {
+	display: block;
+    width: 100%;
+    flex-basis: 100%; /* Naprawia widok contact 1:1 */
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.pricing {
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	color: #777;
+	font-size: 14px;
+	padding-left: 0;
+	margin-bottom: 30px;
+    font-family: 'Lato';
+    background-color: #AA771C;
+	background: linear-gradient(45deg, #aa761c86, #fcf6ba86);
+	border-radius: 50px;
+}
+.pricing img {
+	display: block;
+	margin: auto;
+	width: 32px;
+}
+.pricing li:first-child,
+.pricing li:last-child {
+	padding: 20px 13px;
+}
+.pricing li::before {
+    content: none !important;
+}
+.pricing li {
+	list-style: none;
+	padding: 13px;
+    list-style-type: none !important;
+}
+.pricing li + li {
+	border-top: 1px solid #755826;
+}
+.pricing label {
+	font-size: 32px;
+}
+.pricing h3 {
+	margin-bottom: 0 !important;
+    margin-top: 6px !important;
+    font-size: 32px;
+    font-family: 'Lato';
+}
+.pricing span {
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+.pricing li:nth-last-child(2) {
+	padding: 30px 13px;
+}
+.pricing a {
+	width: auto;
+	margin: auto;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 50px;
+	color: #fff !important;
+	padding: 9px 24px;
+	background: #aaa;
+	opacity: 1;
+	transition: opacity .2s ease;
+  border: none;
+  outline: none;
+}
+
+.pricing a::after {
+    content: none !important;
+}
+
+.pricing a:hover {
+	opacity: .9;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pricing a:active {
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+/* pricing color */
+.p-green label,
+.p-green h3 {
+	color: #94826a !important;
+}
+.p-green a {
+	background: #94826a;
+}
+.p-yel label,
+.p-yel h3 {
+	color: #706659 !important;
+}
+.p-yel a {
+	background: #706659;
+}
+.p-red label,
+.p-red h3 {
+	color: #94826a !important;
+}
+.p-red a {
+	background: #94826a;
+}
+.p-blue label,
+.p-blue h3 {
+	color: #94826a !important;
+}
+.p-blue a {
+	background: #94826a;
+}
+
+.pricing label {
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.w-domu-opis p {
+		font-size: 17px !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.p-intro {
+		width: 100% !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pobyt-images {
+		display: none !important;
+	}
+	.pobyt-images-mobile {
+		display: block !important;
+	}
+}
+
+.pobyt-images-mobile {
+	display: none;
+}
+
+.pobyt-images-mobile img {
+	width: 100%;
+	max-height: 370px;
+}
+
+.tak-jak-w-domu {
+	display: flex;
+}
+
+.tak-jak-w-domu img {
+	width: 100%;
+	max-height: 370px;
+}
+
+.w-domu-opis {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #585858;
+
+	flex: 1; /* additionally, equal width */
+	padding: 8px;
+	box-sizing: border-box;
+	justify-content: center;
+	box-shadow:  0 0 1em #585858;
+	margin-bottom: 10px;
+}
+
+.w-domu-opis h2 {
+	font-size: 52px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.w-domu-opis p {
+	text-align: center;
+	line-height: 200%;
+	color: #666666;
+	font-size: 21px;
+}
+
+.hotel-table { 
+	width: 100%; 
+	border-collapse: collapse; 
+}
+
+.hotel-table tr:nth-of-type(odd) { 
+	background: #eee; 
+  }
+.hotel-table th { 
+	background: rgb(1, 119, 253); 
+	color: white; 
+	font-weight: bold;
+  }
+.hotel-table td, .hotel-table th { 
+	padding: 6px; 
+	border: 1px solid #ccc; 
+	text-align: center;
+  }

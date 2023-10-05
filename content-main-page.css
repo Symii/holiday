@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+.mm-p p {
+    font-size: 21px; 
+    font-weight: 500; 
+    letter-spacing: 1.5px; 
+    line-height: 175%; 
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.mm-p {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.mm-galeria img {
+    width: 40%;
+}
+
+@media screen and (max-width: 1199px) {
+    .g-image, .g-image-left, .g-image-left-hidden {
+        width: 90% !important; 
+        margin: 0 !important;
+    }
+    .g-text, .g-text-left {
+        width: 90% !important;
+    }
+    .g-container, .g-container-left {
+        flex-direction: column !important;
+    }
+    .g-image-left-hidden {
+        display: block !important;
+        margin-left: 0px !important;
+    }
+    .g-image-left {
+        display: none !important;
+    }
+    .g-text-left {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .g-title {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .g-text {
+        margin-top: 100px !important;
+        margin-bottom: 30px !important;
+    }
+    .g-text:first-child {
+        margin-top: 130px !important;
+        margin-bottom: 50px !important;
+    }
+    .g-text-left {
+        margin-top: 140px !important;
+        margin-bottom: 30px !important;
+    }
+    .g-text-left:last-child {
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .g-headline {
+        font-size: 15px !important;
+    }
+    .g-title {
+        font-size: 26px !important;
+    }
+    
+    .g-content {
+        font-size: 13px !important;
+    }
+}
+
+.g-image-left-hidden {
+    display: none;
+}
+
+.g-container {
+    background: url('https://u.profitroom.com/2018.holidayhome.com.pl/uploads/przeskalowane_do_strony/bed4.jpg');
+    background-repeat: no-repeat;
+   
+    background-position: right 100px;
+    background-size: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.g-container-left{
+    background: url('https://u.profitroom.com/2018.holidayhome.com.pl/uploads/przeskalowane_do_strony/bed4-left.jpg');
+    background-repeat: no-repeat;
+   
+    background-position: left 120px;
+    background-size: 30%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+
+
+.g-image img, .g-image-left img, .g-image-left-hidden img {
+    width: 100%;
+    height: auto;
+}
+
+.g-image {
+    margin-bottom: 30px;
+    width: 40%;
+    margin-right: 60px;
+}
+
+.g-image-left {
+    margin-bottom: 30px;
+    width: 40%;
+    margin-left: 60px;
+}
+
+.g-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding: 50px 0;
+}
+
+.g-text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 50px 0;
+}
+
+.g-headline {
+    color: #174C8B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 0 !important;
+    display: block !important;
+}
+
+.g-line {
+    background-color: #174C8B;
+    width: 28px;
+    height: 3.2px;
+    margin-right: 10px;
+    display: block !important;
+    margin-bottom: 3px;
+}
+
+.g-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    color: #2C312B !important;
+}
+
+.g-content {
+    font-family: 'Open Sans', sans-serif;
+    color: #3C475A !important;
+    font-size: 15px;
+    line-height: 175%;
+}
+
+.g-content a {
+    text-decoration: underline !important;
+    color: royalblue !important;
+}

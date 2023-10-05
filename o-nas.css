@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.about-card-container {
+    display: block;
+    float: left;
+    width: 49%;
+    flex-basis: 49%; /* Naprawia widok contact 1:1 */
+}
+
+
+body {
+    background-color: #f1f3fa !important;
+}
+.about-card {
+    position: relative;
+    background-color: rgb(255, 255, 251);
+    border-top: 5px solid #1660b2;
+    border-bottom: 5px solid #1660b2;
+    transition: background-color 0.25s ease-in-out;
+    width: 100%;
+}
+.about-card h5 {
+    margin-top: 0; margin-bottom: 0;
+    padding-top: 25px !important;
+    text-align: center;
+    font-weight: bold !important;
+    color: gray;
+    letter-spacing: 2px !important;
+    z-index: 5 !important;
+}
+
+.about-card h6 {
+    margin-top: 5px; 
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px !important;
+    z-index: 5 !important;
+}
+
+.about-card h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 42px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+    color:rgb(102, 102, 102);
+    font-weight: 200 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 5;
+}
+
+.about-card p {
+    text-align: center;
+    line-height: 170%;
+    color: gray;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.line-top {
+    border-bottom: 2px solid #c8c375;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 280px;
+}
+
+.line-left, .line-right {
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 250px;
+    height: 70px;
+    padding-top: 30px;
+}
+
+.line-left {
+    border-left: 2px solid #c8c375;
+}
+
+.line-right {
+    border-right: 2px solid #c8c375;
+}
+
+.about-card:hover {
+    cursor: pointer;
+}
+
+
+.about-card-container a:hover .about-card {
+    background-color: rgb(255, 255, 242) !important;
+}
+
+.about-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 251);
+    position: absolute;
+    border: 2px solid black;
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+}
+
+.about-card-outline {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    border: 8px solid #886929;
+    width: 93%;
+    height: 320px;
+    z-index: 100;
+}
+
+.about-mobile-image {
+    display: none;
+}
+
+.about-card-container a:hover, .about-card-container a {
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-card-outline, .about-circle {
+        display: none;
+    }
+
+    .about-card-outline {
+        height: 380px !important;
+        top: 230px !important;
+    }
+    .about-circle {
+        top: 180px !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .about-desktop-image {
+        display: none;
+    }
+    .about-mobile-image {
+        display: block;
+    }
+
+    .about-card-container {
+        width: 100% !important;
+    }
+}
+
+
+.unijne-projekty {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.l-section, .l-section--contact, .is-paddington {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
