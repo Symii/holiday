@@ -33,6 +33,7 @@ function delay()
           </nav>
         </label>
       </div>
+      <script src="https://symii.github.io/holiday/wcag.js"></script>
     `;
     el.innerHTML = htmlTect;
     var div = document.getElementsByClassName("l-section--item-slider")[1];
