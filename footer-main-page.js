@@ -1,5 +1,5 @@
-addCss('https://owncraft.eu/style/wcag.css');
-addCss('');
+addCss('https://symii.github.io/holiday/footer.css');
+addCss('https://symii.github.io/holiday/wcag.css')
 function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
