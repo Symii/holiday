@@ -222,6 +222,7 @@ body {
 
 .pricing-item {
   border: 20px solid #d5d5d5 !important;
+  margin-top: 15px;
 }
 
 .text-custom,
