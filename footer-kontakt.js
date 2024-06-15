@@ -55,6 +55,6 @@ if (elementToMove) {
 }
 }
 
-setTimeout(createAndAppendElement, 300);
+setTimeout(createAndAppendElement, 20);
 
 
