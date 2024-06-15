@@ -10,6 +10,7 @@
     }
   }
 .holiday-footer-kontakt {
+    margin-top: -50px !important;
     width: 100%;
     display: flex;
     text-align: left;
