@@ -296,3 +296,46 @@ a:link {
 .contact-container {
     width: 100% !important;
   }
+
+
+  .form-control {
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3 !important;
+    border-radius: 8px !important;
+    color: #6c757d !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+  
+  .form-control:focus {
+    border: 1px solid #a38c73 !important;
+    outline: #a38c73 !important;
+  }
+  
+  .form-title {
+    color: #000;
+    font-weight: 900;
+    font-size: 34px !important;
+    font-family: "Roboto", sans-serif;
+    text-transform: none !important;
+  }
+  
+  .btn-primary {
+    background: #a38c73 !important;
+    color: white !important;
+  }
+  
+  body {
+    background: white !important;
+  }
+  
+  #contact-Email,
+  #contact-SubmitMessage,
+  #contact-Phone,
+  #contact-FullName {
+    color: black !important;
+  }
+  
+  .contact input,
+  .contact textarea {
+    border: 2px solid #a38c73 !important;
+  }
