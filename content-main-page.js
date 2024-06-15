@@ -1,4 +1,4 @@
-addCss("https://owncraft.eu/style/content-main-page.css");
+addCss("https://symii.github.io/holiday/content-main-page.css");
 function insertAfter(referenceNode, newNode) {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
