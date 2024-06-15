@@ -244,3 +244,7 @@ body {
 a:link {
   text-decoration: none !important;
 }
+
+.contact-container {
+    width: 100% !important;
+  }
