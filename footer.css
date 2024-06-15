@@ -19,7 +19,9 @@
     margin-right: 0 !important;
   }
 }
-.footer-address span {
+.footer-address span,
+.footer-address__line,
+.footer-address__line span {
   color: rgb(226, 226, 226) !important;
 }
 .holiday-footer h3 {
