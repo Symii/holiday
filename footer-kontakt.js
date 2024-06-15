@@ -25,8 +25,8 @@ if (div == null) {
 
 insertAfter(div, el);
 
-
-var elementToMove = document.querySelector('.content-form-hld');
+function createAndAppendElement() {
+  var elementToMove = document.querySelector('.content-form-hld');
 
 // Sprawdzamy, czy element istnieje
 if (elementToMove) {
@@ -46,5 +46,8 @@ if (elementToMove) {
 } else {
     console.error('Element to move not found');
 }
+}
+
+setTimeout(createAndAppendElement, 300);
 
 
