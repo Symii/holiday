@@ -644,6 +644,27 @@ body {
 
 /* Ensure responsiveness and readability across different screen sizes */
 
+.senior-gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 32%;
+  padding: 12px;
+}
+
+.senior-gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.senior-gallery .desc {
+  padding-top: 54px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center !important;
+}
+
 @media screen and (max-width: 800px) {
   .masaze-cards {
     flex-wrap: wrap;
@@ -666,6 +687,9 @@ body {
     width: 85% !important;
     margin: 30px auto !important;
   }
+  .senior-gallery {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -681,25 +705,4 @@ body {
   .testimonial-box {
     width: 100% !important;
   }
-}
-
-.senior-gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 32%;
-  padding: 12px;
-}
-
-.senior-gallery img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.senior-gallery .desc {
-  padding-top: 54px;
-  font-size: 18px;
-  width: 100%;
-  text-align: center !important;
 }
