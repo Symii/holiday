@@ -47,6 +47,9 @@ if (elementToMove) {
 
         var title = document.querySelector('.l-section-title-hld');
         title.remove();
+
+        var section = document.querySelector('.l-section--contact');
+        section.style.height = '0px';
     } else {
         console.error('Target element not found');
     }
