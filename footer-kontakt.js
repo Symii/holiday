@@ -23,6 +23,8 @@ if (div == null) {
   div = document.querySelector(".l-section--rooms-listing");
 }
 
+insertAfter(div, el);
+
 
 var elementToMove = document.querySelector('.l-section--contact');
 
@@ -45,4 +47,4 @@ if (elementToMove) {
     console.error('Element to move not found');
 }
 
-insertAfter(div, el);
+
