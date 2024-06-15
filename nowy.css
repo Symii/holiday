@@ -48,11 +48,11 @@ body {
   border-radius: 16px !important;
   box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25) !important;
 }
-
+/*
 .card:nth-child(2) {
   min-width: 400px !important;
   width: 500px !important;
-}
+}*/
 
 .contact-information {
   background-color: var(--c-white) !important;
