@@ -221,7 +221,7 @@ body {
 /* PRICING TABLE */
 
 .pricing-item {
-  border: 10px solid #d5d5d5;
+  border: 20px solid #d5d5d5 !important;
 }
 
 .text-custom,
