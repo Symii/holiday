@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
 
 @media screen and (max-width: 992px) {
-    .holiday-footer {
+    .holiday-footer-kontakt {
       flex-direction: column;
     }
     .footer-main-section,
@@ -9,7 +9,7 @@
       margin-top: 40px;
     }
   }
-.holiday-footer {
+.holiday-footer-kontakt {
     width: 100%;
     display: flex;
     text-align: left;
@@ -17,20 +17,20 @@
     padding-bottom: 100px;
     font-family: "Lato", sans-serif;
   }
-  .footer-social-section {
+  .kontakt-footer-social-section {
     flex-basis: 30%;
   }
-  .footer-main-section {
+  .kontakt-footer-main-section {
     flex-basis: 40%;
   }
-  .footer-nav-section {
+  .kontakt-footer-nav-section {
     flex-basis: 20%;
     text-align: left;
   }
 
-  .footer-social-section,
-  .footer-main-section,
-  .footer-nav-section {
+  .kontakt-footer-social-section,
+  .kontakt-footer-main-section,
+  .kontakt-footer-nav-section {
     justify-content: left;
     align-items: left;
     display: flex;
