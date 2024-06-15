@@ -43,7 +43,7 @@ if (elementToMove) {
 
         var footer = document.createElement("div");
         footer.innerHTML = footerContent;
-        insertAfter(targetElement, footer);
+        insertAfter(elementToMove, footer);
     } else {
         console.error('Target element not found');
     }
