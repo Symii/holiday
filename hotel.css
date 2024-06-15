@@ -432,6 +432,10 @@ body {
   .sscard {
     width: 32% !important;
   }
+  .pricing .plan {
+    width: 85% !important;
+    margin: 30px auto !important;
+  }
 }
 
 /* Adjusted styles for better accessibility and usability */
@@ -599,4 +603,82 @@ body {
 
 .sscontainer {
   padding: 2px 16px;
+}
+
+
+
+
+
+
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pricing .plan {
+  background-color: #fff;
+  padding: 2.5rem;
+  margin: 12px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 44%;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+.pricing .plan h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.pricing .plan .price {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+.pricing .plan ul.features {
+  list-style-type: none;
+  text-align: left;
+}
+.pricing .plan ul.features li {
+  margin: 8px;
+}
+.pricing .plan ul.features li .fas {
+  margin-right: 4px;
+}
+.pricing .plan ul.features li .fa-check-circle {
+  color: #d11414;
+}
+.pricing .plan ul.features li .fa-times-circle {
+  color: #d11414;
+}
+.pricing .plan button {
+  border: none;
+  width: 100%;
+  padding: 12px 35px;
+  margin-top: 1rem;
+  background-color: #d11414;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.pricing .plan.popular {
+  border: 2px solid #d11414;
+  position: relative;
+  transform: scale(1.08);
+}
+.pricing .plan.popular span {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d11414;
+  color: #fff;
+  padding: 4px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.pricing .plan:hover {
+  box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
 }
