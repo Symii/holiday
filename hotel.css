@@ -25,15 +25,6 @@ body {
   display: none !important;
 }
 
-@media screen and (max-width: 1199px) {
-  .mobile-image {
-    display: block !important;
-  }
-  .desktop-image {
-    display: none !important;
-  }
-}
-
 .row-flex {
   display: flex;
   flex-wrap: wrap;
@@ -237,12 +228,6 @@ body {
   line-height: 1.5;
 }
 
-@media screen and (max-width: 1200px) {
-  .testimonial-box {
-    width: 100% !important;
-  }
-}
-
 .zabiegi ul {
   list-style: none !important;
   padding: 0 !important;
@@ -410,32 +395,6 @@ body {
 .rytual-card p {
   font-size: 35px;
   font-weight: bold;
-}
-
-/* Ensure responsiveness and readability across different screen sizes */
-
-@media screen and (max-width: 800px) {
-  .masaze-cards {
-    flex-wrap: wrap;
-  }
-  .bar-card,
-  .bar-menu2 img {
-    width: 49% !important;
-    margin-top: 10px;
-  }
-  .hotel-about-text h2 {
-    font-size: 29px !important;
-  }
-  .bar-card label {
-    font-size: 20px !important;
-  }
-  .sscard {
-    width: 32% !important;
-  }
-  .pricing .plan {
-    width: 85% !important;
-    margin: 30px auto !important;
-  }
 }
 
 /* Adjusted styles for better accessibility and usability */
@@ -681,4 +640,45 @@ body {
 }
 .pricing .plan:hover {
   box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37) !important;
+}
+
+/* Ensure responsiveness and readability across different screen sizes */
+
+@media screen and (max-width: 800px) {
+  .masaze-cards {
+    flex-wrap: wrap;
+  }
+  .bar-card,
+  .bar-menu2 img {
+    width: 49% !important;
+    margin-top: 10px;
+  }
+  .hotel-about-text h2 {
+    font-size: 29px !important;
+  }
+  .bar-card label {
+    font-size: 20px !important;
+  }
+  .sscard {
+    width: 32% !important;
+  }
+  .pricing .plan {
+    width: 85% !important;
+    margin: 30px auto !important;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .mobile-image {
+    display: block !important;
+  }
+  .desktop-image {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonial-box {
+    width: 100% !important;
+  }
 }
