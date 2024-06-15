@@ -596,7 +596,7 @@ body {
 }
 .pricing .plan ul.features li {
   margin: 8px !important;
-  font-size: 16px !important;
+  font-size: 15px !important;
 }
 .pricing .plan ul.features li:hover {
   cursor: default !important;
