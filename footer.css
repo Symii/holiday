@@ -21,7 +21,11 @@
 }
 .footer-address span,
 .footer-address__line,
-.footer-address__line span {
+.footer-address__line span,
+.nav-footer,
+.nav-footer li span,
+.nav-footer li span span,
+.created-hld__text {
   color: rgb(226, 226, 226) !important;
 }
 .holiday-footer h3 {
