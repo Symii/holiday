@@ -30,7 +30,7 @@ body {
   background-color: var(--c-ash) !important;
 }
 
-.cards {
+.contact-cards {
   display: block !important;
   flex-wrap: wrap !important;
   align-items: flex-start !important;
@@ -54,12 +54,12 @@ body {
   width: 500px !important;
 }
 
-.information {
+.contact-information {
   background-color: var(--c-white) !important;
   padding: 1.5rem !important;
 }
 
-.information .tag {
+.contact-information .tag {
   display: inline-block !important;
   background-color: var(--c-titan-white) !important;
   color: var(--c-indigo) !important;
@@ -70,29 +70,29 @@ body {
   border-radius: 6px !important;
 }
 
-.information .tag + * {
+.contact-information .tag + * {
   margin-top: 1rem !important;
 }
 
-.information .title {
+.contact-information .title {
   font-size: 1.5rem !important;
   color: var(--c-void) !important;
   line-height: 1.25 !important;
 }
 
-.information .title + * {
+.contact-information .title + * {
   margin-top: 1rem !important;
 }
 
-.information .info {
+.contact-information .info {
   color: var(--c-charcoal) !important;
 }
 
-.information .info + * {
+.contact-information .info + * {
   margin-top: 1.25rem !important;
 }
 
-.information .button {
+.contact-information .button {
   font: inherit !important;
   line-height: 1 !important;
   background-color: var(--c-white) !important;
@@ -107,18 +107,18 @@ body {
   gap: 0.5rem !important;
 }
 
-.information .button:hover,
-.information .button:focus {
+.contact-information .button:hover,
+.contact-information .button:focus {
   background-color: var(--c-indigo) !important;
   color: var(--c-white) !important;
 }
 
-.information .details {
+.contact-information .details {
   display: block !important;
   gap: 1rem !important;
 }
 
-.information .details div {
+.contact-information .details div {
   padding: 0.75em 1em !important;
   background-color: var(--c-titan-white) !important;
   border-radius: 8px !important;
@@ -128,29 +128,29 @@ body {
   flex-basis: 50% !important;
 }
 
-.information .details dt {
+.contact-information .details dt {
   font-size: 0.875rem !important;
   color: var(--c-cold-purple) !important;
 }
 
-.information .details dd {
+.contact-information .details dd {
   color: var(--c-indigo) !important;
   font-weight: 600 !important;
   font-size: 1.25rem !important;
 }
 
-.plan {
+.contact-plan {
   padding: 10px !important;
   background-color: var(--c-white) !important;
   color: var(--c-del-rio) !important;
 }
 
-.plan strong {
+.contact-plan strong {
   font-weight: 600 !important;
   color: var(--c-coffee) !important;
 }
 
-.plan .inner {
+.contact-plan .inner {
   padding: 20px !important;
   padding-top: 40px !important;
   background-color: var(--c-fair-pink) !important;
@@ -159,7 +159,7 @@ body {
   overflow: hidden !important;
 }
 
-.plan .pricing {
+.contact-plan .pricing {
   position: absolute !important;
   top: 0 !important;
   right: 0 !important;
@@ -173,42 +173,42 @@ body {
   color: var(--c-coffee) !important;
 }
 
-.plan .pricing small {
+.contact-plan .pricing small {
   color: var(--c-del-rio) !important;
   font-size: 0.75em !important;
   margin-left: 0.25em !important;
 }
 
-.plan .title {
+.contact-plan .title {
   font-weight: 600 !important;
   font-size: 1.25rem !important;
   color: var(--c-coffee) !important;
 }
 
-.plan .title + * {
+.contact-plan .title + * {
   margin-top: 0.75rem !important;
 }
 
-.plan .info + * {
+.contact-plan .info + * {
   margin-top: 1rem !important;
 }
 
-.plan .features {
+.contact-plan .features {
   display: block !important;
   flex-direction: column !important;
 }
 
-.plan .features li {
+.contact-plan .features li {
   display: block !important;
   align-items: center !important;
   gap: 0.5rem !important;
 }
 
-.plan .features li + * {
+.contact-plan .features li + * {
   margin-top: 0.75rem !important;
 }
 
-.plan .features .icon {
+.contact-plan .features .icon {
   background-color: var(--c-java) !important;
   display: block !important;
   align-items: center !important;
@@ -219,16 +219,16 @@ body {
   height: 20px !important;
 }
 
-.plan .features .icon svg {
+.contact-plan .features .icon svg {
   width: 14px !important;
   height: 14px !important;
 }
 
-.plan .features + * {
+.contact-plan .features + * {
   margin-top: 1.25rem !important;
 }
 
-.plan button {
+.contact-plan button {
   font: inherit !important;
   background-color: var(--c-indigo) !important;
   border-radius: 6px !important;
@@ -240,8 +240,8 @@ body {
   padding: 1em !important;
 }
 
-.plan button:hover,
-.plan button:focus {
+.contact-plan button:hover,
+.contact-plan button:focus {
   background-color: var(--c-governor) !important;
 }
 
