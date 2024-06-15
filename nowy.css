@@ -31,7 +31,7 @@ body {
 }
 
 .cards {
-  display: flex !important;
+  display: block !important;
   flex-wrap: wrap !important;
   align-items: flex-start !important;
   justify-content: center !important;
@@ -40,6 +40,10 @@ body {
   margin: 10vh auto !important;
 }
 
+.cards article {
+    width: 33.33333%;
+    float: left;
+}
 .card {
   border-radius: 16px !important;
   box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25) !important;
@@ -97,7 +101,7 @@ body {
   padding: 0.5em 1em !important;
   border-radius: 6px !important;
   font-weight: 500 !important;
-  display: inline-flex !important;
+  display: block !important;
   align-items: center !important;
   justify-content: space-between !important;
   gap: 0.5rem !important;
@@ -110,7 +114,7 @@ body {
 }
 
 .information .details {
-  display: flex !important;
+  display: block !important;
   gap: 1rem !important;
 }
 
@@ -118,7 +122,7 @@ body {
   padding: 0.75em 1em !important;
   background-color: var(--c-titan-white) !important;
   border-radius: 8px !important;
-  display: flex !important;
+  display: block !important;
   flex-direction: column-reverse !important;
   gap: 0.125em !important;
   flex-basis: 50% !important;
@@ -161,7 +165,7 @@ body {
   right: 0 !important;
   background-color: var(--c-apricot) !important;
   border-radius: 99em 0 0 99em !important;
-  display: flex !important;
+  display: block !important;
   align-items: center !important;
   padding: 0.625em 0.75em !important;
   font-size: 1.25rem !important;
@@ -190,12 +194,12 @@ body {
 }
 
 .plan .features {
-  display: flex !important;
+  display: block !important;
   flex-direction: column !important;
 }
 
 .plan .features li {
-  display: flex !important;
+  display: block !important;
   align-items: center !important;
   gap: 0.5rem !important;
 }
@@ -206,7 +210,7 @@ body {
 
 .plan .features .icon {
   background-color: var(--c-java) !important;
-  display: inline-flex !important;
+  display: block !important;
   align-items: center !important;
   justify-content: center !important;
   color: var(--c-white) !important;
