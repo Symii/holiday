@@ -609,6 +609,7 @@ body {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
+  font-size: 16px;
 }
 .pricing .plan {
   background-color: #fff !important;
@@ -618,17 +619,17 @@ body {
   text-align: center !important;
   transition: 0.3s !important;
   cursor: pointer !important;
-  width: 44% !important;
+  width: 35% !important;
   margin-right: 60px !important;
   margin-bottom: 50px !important;
 }
 .pricing .plan h2 {
-  font-size: 22px !important;
+  font-size: 16px !important;
   margin-bottom: 12px !important;
 }
 .pricing .plan .price {
   margin-bottom: 1rem !important;
-  font-size: 30px !important;
+  font-size: 16px !important;
 }
 .pricing .plan ul.features {
   list-style-type: none !important;
@@ -655,7 +656,7 @@ body {
   color: #fff !important;
   border-radius: 5px !important;
   cursor: pointer !important;
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 .pricing .plan.popular {
   border: 2px solid #d11414 !important;
