@@ -93,7 +93,8 @@ body {
   max-height: 600px;
 }
 
-.gold-text {
+.gold-text,
+.t-section-subtitle {
   color: #886644 !important; /*#be9d7d !important;*/
 }
 
