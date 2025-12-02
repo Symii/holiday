@@ -63,9 +63,7 @@ function showBanner() {
   `;
 
   banner.style.cssText = `
-    ${
-      offer.style || "background-color: #bfaa89;"
-    } /* Użyj koloru z oferty, domyślnie beżowy */
+    ${offer.style || "background-color: #bfaa89;"} 
     color: #fff; 
     padding: 15px 25px; 
     border-radius: 12px; 
@@ -76,13 +74,18 @@ function showBanner() {
     width: 80%; 
     max-width: 900px; 
     font-size: 16px;
-    animation: fadeIn 0.4s ease-out; /* Animacja jest w <style> */
+    animation: fadeIn 0.4s ease-out;
   `;
 
   banner.style.display = "flex";
 }
 
 function delay() {
+  if (!document.body || !document.head) {
+    setTimeout(delay, 50);
+    return;
+  }
+
   const bannerHTML = `
     <div 
       class="sticky-banner-wrapper"
@@ -102,7 +105,7 @@ function delay() {
 
   const tempDiv = document.createElement("div");
   tempDiv.innerHTML = bannerHTML;
-  const bannerWrapper = tempDiv.firstChild;
+  const bannerWrapper = tempDiv.firstElementChild;
 
   document.body.prepend(bannerWrapper);
 
@@ -122,10 +125,13 @@ function delay() {
     #sticky-holiday-banner {
         animation: fadeIn 0.4s ease-out;
     }
+    body {
+        margin-top: 0 !important; 
+    }
   `;
   document.head.appendChild(style);
 
   showBanner();
 }
 
-setTimeout(delay, 200);
+setTimeout(delay, 400);
