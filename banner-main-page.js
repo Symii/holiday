@@ -6,7 +6,7 @@ const bannerOffers = [
   {
     start: "2025-12-01",
     end: "2025-12-26",
-    html: `🌟 Świąteczna magia nad morzem! Zarezerwuj wyjątkowy pobyt w naszym hotelu i poczuj klimat Bożego Narodzenia. <a href=\"/swieta-boze-narodzenie-hotel-jaroslawiec-2025\">Zobacz ofertę</a>`,
+    html: `🌟 Świąteczna magia nad morzem! Zarezerwuj wyjątkowy pobyt w naszym hotelu i poczuj klimat Bożego Narodzenia. <a href=\"/swieta-boze-narodzenie-hotel-jaroslawiec-2025-2026\">Zobacz ofertę</a>`,
     style: "background-color: #bfaa89;",
   },
   {
@@ -91,12 +91,11 @@ function delay() {
       class="sticky-banner-wrapper"
       style="
         position: sticky; 
-        top: 0; 
+        top: 30px; 
         width: 100%; 
         display: flex; 
         justify-content: center; 
-        z-index: 9999; 
-        margin-top: 20px;
+        z-index: 9999;
       "
     >
       <div id="sticky-holiday-banner" style="display: none;"></div>
