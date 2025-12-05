@@ -39,7 +39,7 @@ window.closeBanner = function () {
 
 function showBanner() {
   const lastClosed = localStorage.getItem("bannerClosedAt");
-  if (lastClosed && Date.now() - Number(lastClosed) < 3600000) return;
+  //if (lastClosed && Date.now() - Number(lastClosed) < 3600000) return;
 
   const offer = getCurrentOffer();
   if (!offer) return;
