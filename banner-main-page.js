@@ -5,12 +5,12 @@ function insertAfter(referenceNode, newNode) {
 const bannerOffers = [
   {
     start: "2025-12-01",
-    end: "2025-12-26",
+    end: "2025-12-19",
     html: `🌟 Świąteczna magia nad morzem! Zarezerwuj wyjątkowy pobyt w naszym hotelu i poczuj klimat Bożego Narodzenia. <a href=\"/swieta-boze-narodzenie-hotel-jaroslawiec-2025-2026\">Zobacz ofertę</a>`,
     style: "background-color: #bfaa89;",
   },
   {
-    start: "2025-12-27",
+    start: "2025-12-20",
     end: "2026-01-03",
     html: `✨ Powitaj Nowy Rok nad morzem! Sprawdź naszą wyjątkową ofertę sylwestrową. <a href=\"/sylwester-jaroslawiec-2025-2026\">Sprawdź szczegóły</a>`,
     style: "background-color: #3b5998;",
@@ -134,3 +134,4 @@ function delay() {
 }
 
 setTimeout(delay, 400);
+
